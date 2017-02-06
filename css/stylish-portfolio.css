@@ -14,12 +14,31 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+
 }
 
 .text-vertical-center {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.text-vertical-center2 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.text-vertical-center2 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 .text-vertical-center h1 {
@@ -44,6 +63,19 @@ body {
     background-color: rgba(0,0,0,0.7);
 }
 
+.btn-dark2 {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark2:hover,
+.btn-dark2:focus,
+.btn-dark2:active {
+    color: yellow;
+    background-color: rgba(0,0,0,0.7);
+}
+
 .btn-light {
     border-radius: 0;
     color: #333;
@@ -53,6 +85,58 @@ body {
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.btn-light1 {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light1:hover,
+.btn-light1:focus,
+.btn-light1:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.btn-light2 {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light2:hover,
+.btn-light2:focus,
+.btn-light2:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.btn-light3 {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light3:hover,
+.btn-light3:focus,
+.btn-light3:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.btn-light4 {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light4:hover,
+.btn-light4:focus,
+.btn-light4:active {
     color: #333;
     background-color: rgba(255,255,255,0.8);
 }
@@ -155,7 +239,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/TexasFlags.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -168,14 +252,249 @@ hr.small {
     padding: 50px 0;
 }
 
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg1:hover {opacity: 0.7;}
+#myImg2:hover {opacity: 0.7;}
+#myImg3:hover {opacity: 0.7;}
+#myImg4:hover {opacity: 0.7;}
+#myImg5:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+#college {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/utTower.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headerCollege {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/utTower.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.picRow {
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: black;
+}
+
+.pictures {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    margin: 5px;
+}
+
+#family {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/Family.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headerFam {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/Family.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#hobbies {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/arnold.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headerHob {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/arnold.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#me {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/damonWedding.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headerMe {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/damonWedding.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.qp {
+    height: 500px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #CC5500;
+}
+
+.qp2 {
+    height: 200px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qp3 {
+    height: 200px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+}
+
+.fam {
+    height: 100px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Services */
 
 .services {
-    padding: 50px 0;
+    padding: 200px 0;
 }
 
 .service-item {
     margin-bottom: 30px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* Callout */
@@ -200,6 +519,26 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+}
+
+.cheer{
+    height: 700px;
+    width:70%;
+}
+
+.famDiv {
+    height: 700px;
+    width: 75%;
+}
+
+.image {
+    height: 600px;
+    width: 70%;
+}
+
+.famImage {
+    height: 450px;
+    width: 100%;
 }
 
 .img-portfolio {

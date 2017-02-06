@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Damon Foster</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+    <!-- About -->
+<!--     <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                </div>
+            </div> -->
+            <!-- /.row -->
+        <!-- </div> -->
+        <!-- /.container -->
+    <!-- </section> -->
+
+    <!-- Portfolio -->
+<!--     <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Our Work</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="cheer">
+                                <a href="#">
+                                    <img class="image" src="img/Cupie.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="famDiv">
+                                <a href="#">
+                                    <img class="famImage" src="img/Family.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="image" src="img/capShield.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="image" src="img/portfolio-4.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!<! --> <!-- /.row (nested) --> 
+                    <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
+                <!-- </div> -->
+                <!-- /.col-lg-10 -->
+            <!-- </div> -->
+            <!-- /.row -->
+        <!-- </div> -->
+        <!-- /.container -->
+    <!-- </section> -->
+
+    <!-- <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+
+    <script type="text/javascript">
+        $('.image').onClick().hide();
+    </script> -->
+
+    <body>
+
+        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="index.html" onclick=$("#menu-close").click();>Damon Foster</a>
+            </li>
+            <li>
+                <a href="index.html" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="about.html" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+        <div id ="college">
+        <div class="picRow">
+            <!-- Trigger the Modal -->
+                        <div class="pictures">
+                        <img id="myImg1" class="images" src="img/Cupie.png" alt="Damon and Kelsey hitting a cupie!" width="100" height="200">
+                        </div>
+
+                        <div class="pictures">
+                        <img id="myImg2" class="images" src="img/frands.jpg" alt="Friends since freshman year!" width="100" height="200">
+                        </div>
+
+                        <div class="pictures">
+                        <img id="myImg3" class="images" src="img/ndlib.jpg" alt="Notre Dame 2015. Lib line in front of Touchdown Jesus!" width="100" height="200">
+                        </div>
+
+                        <div class="pictures">
+                        <img id="myImg4" class="images" src="img/bestman.jpg" alt="Best man at my best friend's wedding!" width="100" height="200">
+                        </div>
+
+                        <div class="pictures">
+                        <img id="myImg5" class="images" src="img/colorrun.jpg" alt="Participating in the Color Run my junior year" width="100" height="200">
+                        </div>
+                    </div>
+            <header id="top" class="headerCollege">
+
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                            <!-- The Close Button -->
+                            <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+                            <!-- Modal Content (The Image) -->
+                            <img class="modal-content" id="img01">
+                            <img class="modal-content" id="img02">
+                            <img class="modal-content" id="img03">
+                            <img class="modal-content" id="img04">
+                            <img class="modal-content" id="img05">
+
+                            <!-- Modal Caption (Image Text) -->
+                            <div id="caption"></div>
+                        </div>
+                <div class="text-vertical-center2">
+                    <div class="qp">
+
+                    <p><h3>I'm originally from Waxahachie, Texas before moving to Austin to attend The University of Texas at Austin. While at UT, I found some lifelong friends and was even lucky enough to be a cheerleader for three years. Attending UT pushed me to work hard and grow, but it also helped me find my passions. I graduated from UT with a bachelor's degree in Nutrition, but developed a love of coding as well. I am an outgoing and charismatic person. I love being part of a team, meeting new people, and making people laugh. I am a hard worker and a quick learner. I enjoy polishing and perfecting languages that I already know, as well as learning new languages. Please continue reading the rest of my "About Me" to learn more about me.</h3></p>
+
+                        <br>
+
+                        <p><h3>I look forward to meeting you!</h3></p>
+
+                        <br>
+
+                        <a href="about.html" class="btn btn-dark btn-lg">Back to About Me!</a>
+
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div id ="family">
+            <header id="top" class="headerFam">
+                <div class="text-vertical-center2">
+                    <div class="fam">
+                        <p><h2>Meet the Foster family! This is my brother, Mark Jr., my dad, Mark Sr., my sister, Jordan, my mommy, Amy, and myself! Despite being the biggest member of the family, I am also the baby. My brother is my biggest role model and my mommy is my favorite person in the world! My biggest goal in life is to take care of my mommy! </h2></p>
+                        <br>
+                        <a href="about.html" class="btn btn-dark btn-lg">Back to About Me!</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div id ="hobbies">
+            <header id="top" class="headerHob">
+                <div class="text-vertical-center2">
+                    <div class="qp3">
+                        <p><h2>Stemming from my time as a cheerleader, I am an avid weight lifter. Arnold Schwarzenegger is my body building idol. I'm a huge UT fan. I follow UT football almost religously. When not at the gym or watching sports, I will probably be at a movie theater, catching a new release. Popcorn and ICEEs are two of my greatest weaknesses. I can nerd out a little bit, as well. I can spend countless hours playing PS4. I'm a big Marvel fan with Captain America being my favorite super hero. Finally, I'm a huge Harry Potter fan. Visiting the Wizarding World of Harry Potter at Universal Studios was one of the happiest moments of my life.</h2></p>
+
+                        <br>
+
+                        <a href="about.html" class="btn btn-dark btn-lg">Back to About Me!</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+<!--         <div id ="me">
+            <header id="top" class="headerMe">
+                <div class="text-vertical-center2">
+                    <div class="fam">
+                        <p><h3>I'm an outgoing and charismatic person. I love being part of a team, meeting new people, and making people laugh. I am a hard worker and a quick learner. I enjoy polishing and perfecting languages that I already know, as well as learning new languages. Sports, weight lifting, video games, and movies are a couple of my hobbies. Please continue reading the rest of my "About Me" to learn more about me.</h3></p>
+
+                        <br>
+
+                        <p><h3>I look forward to meeting you!</h3></p>
+
+                        <br>
+                        
+                        <p><a href="about.html" class="btn btn-dark btn-lg">Back to About Me!</a></p>
+                    </div>
+                    
+                </div>
+            </header>
+        </div> -->
+
+        <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>A Brief Introduction to Damon Foster</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <!-- <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <img src="img/Damon.jpg">
+                            </span>
+                                <h4>
+                                    <strong>About Me!</strong>
+                                </h4>
+                                <p>I'm Damon Foster. It's nice to meet you!</p>
+                                <a href="#" class="btn btn-light1">Learn More</a>
+                            </div>
+                        </div> -->
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <img src="img/Damon.jpg">
+                            </span>
+                                <h4>
+                                    <strong>About Me!</strong>
+                                </h4>
+                                <p>Come on in!</p>
+                                <a href="#" class="btn btn-light2">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <img src="img/miniFam.jpg">
+                            </span>
+                                <h4>
+                                    <strong>Family</strong>
+                                </h4>
+                                <p>Come and meet my family!</p>
+                                <a href="#" class="btn btn-light3">Learn More</a>
+
+                                <br><br><br><br>
+
+                                <a href="portfolio.html" class="btn btn-dark2 btn-lg">This way to Damon's portfolio!</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <img src="img/miniShield.png">
+                            </span>
+                                <h4>
+                                    <strong>Hobbies and Interests</strong>
+                                </h4>
+                                <p>These are a few of my favorite things!</p>
+                                <a href="#" class="btn btn-light4">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->  
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    </body>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+
+    $("#college").hide();
+    $("#family").hide();
+    $("#hobbies").hide();
+    $("#me").hide();
+
+    $(".btn-light1").on('click', function() {
+        $("#services").hide();
+        $("#me").show();
+    })
+
+    $(".btn-light2").on('click', function() {
+        $("#services").hide();
+        $("#college").show();
+    })
+    
+    $(".btn-light3").on('click', function() {
+        $("#services").hide();
+        $("#family").show();
+    })
+
+    $(".btn-light4").on('click', function() {
+        $("#services").hide();
+        $("#hobbies").show();
+    })
+
+    // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg1');
+// var img = document.getElementById('myImg2');
+// var img = document.getElementById('myImg3');
+// var img = document.getElementById('myImg4');
+// var img = document.getElementById('myImg5');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg2');
+// var img = document.getElementById('myImg2');
+// var img = document.getElementById('myImg3');
+// var img = document.getElementById('myImg4');
+// var img = document.getElementById('myImg5');
+var modalImg = document.getElementById("img02");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg3');
+// var img = document.getElementById('myImg2');
+// var img = document.getElementById('myImg3');
+// var img = document.getElementById('myImg4');
+// var img = document.getElementById('myImg5');
+var modalImg = document.getElementById("img03");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg4');
+// var img = document.getElementById('myImg2');
+// var img = document.getElementById('myImg3');
+// var img = document.getElementById('myImg4');
+// var img = document.getElementById('myImg5');
+var modalImg = document.getElementById("img04");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg5');
+// var img = document.getElementById('myImg2');
+// var img = document.getElementById('myImg3');
+// var img = document.getElementById('myImg4');
+// var img = document.getElementById('myImg5');
+var modalImg = document.getElementById("img05");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+
+    </script>
+
+    </html>

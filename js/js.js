@@ -1,0 +1,1 @@
+$('.img-portfolio img-responsive').hide();
