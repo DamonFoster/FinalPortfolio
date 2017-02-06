@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,10 +20,17 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-</head>
-<body>
 
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
@@ -43,62 +52,39 @@
         </ul>
     </nav>
 
-            <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="portfolio">
+
+
+    <!-- Footer -->
+    <footer>
         <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1>Damon's Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Damon Foster</strong>
+                    </h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (469) 765-6142</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:dfoster27@utexas.edu">Dfoster27@utexas.edu</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
                     <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="port1">
-                            <h3><strong>Netflix and Grill</strong></h3>
-
-                            <br>
-
-                            <img src="img/project1.jpg">
-
-                            <h5>A web application that helps you choose a Netflix movie and a recipe to make at home. Perfect for anyone who just can't decide what they want!</h5>
-
-                            <br>
-
-                            <a href="https://netflixandgrill.herokuapp.com/" class="btn btn-light">See it in action!</a>
-
-                            <br><br>
-
-                            <a href="https://github.com/DamonFoster/NetflixandGrill" class="btn btn-light">See the source code!</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="port2">
-
-                                <h3><strong>TexVets.net</strong></h3>
-
-                                <br>
-
-                                <img src="img/texvet-logo.png">
-
-                                <h5>A website designed to help ease the transition for Texas veterans back into civilian life.</h5>
-
-                                <a href="www.texvets.net" class="btn btn-light">See it in action!</a>
-
-                                <br><br>
-
-                                <a href="https://github.com/Huntario/TexVets.net" class="btn btn-light">See the source code!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
+                    <p class="text-muted">Copyright &copy; Damon Foster 2017</p>
                 </div>
-                <!-- /.col-lg-10 -->
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
-    </section>
-
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
 
     <script src="js/jquery.js"></script>
 
@@ -158,5 +144,6 @@
         }
     });
     </script>
+
 </body>
 </html>
