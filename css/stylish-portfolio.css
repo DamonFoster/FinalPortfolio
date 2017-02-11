@@ -596,6 +596,18 @@ img {
 
 /* Footer */
 
+h4 {
+    color: blue;
+}
+
+.phone {
+    color: blue;
+}
+
+.phonenum {
+    color: blue;
+}
+
 footer {
     padding: 100px 0;
 }
