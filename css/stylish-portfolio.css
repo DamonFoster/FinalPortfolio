@@ -23,6 +23,7 @@ body {
     vertical-align: middle;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
+
 }
 
 .text-vertical-center2 {
@@ -239,7 +240,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/TexasFlags.png) no-repeat center center scroll;
+    background: url(../img/darkFlags.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -458,7 +459,8 @@ hr.small {
     width: 750px;
     margin-left: auto;
     margin-right: auto;
-    color: #CC5500;
+    /*color: #CC5500;*/
+    color: white;
 }
 
 .qp2 {
